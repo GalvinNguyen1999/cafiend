@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.padding-section {
+  @apply py-[60px] md:py-[90px] lg:py-[120px]
+}
+
+.margin-section {
+  @apply px-4 max-w-[1400px] mx-auto
+}
